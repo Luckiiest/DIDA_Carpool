@@ -1,0 +1,157 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    
+    .banner {
+        width: 100%;
+        #allmap {
+            width: 100%;
+            height: 30rem;
+            // border: 1px solid black;
+            margin: 0 auto;
+        }
+    }
+    .nav {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        .nav-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 80%;
+            height: 5rem;
+            // border: 1px solid black;
+            margin: 0 auto;
+            padding-left: 4rem;
+            box-sizing: border-box;
+            .carpool {
+                font-size: 1.4rem;
+                margin: 0 2.5rem;
+                padding: 1rem 2rem;
+                // border: 1px solid #ccc;
+                background-color: #29abc7;
+                border-radius: 6px;
+                color: #fff;
+            }
+            .long-distance {
+                margin-left: 0;
+            }
+            .release-long-distance {
+                margin-right: 0;
+                background: #db182b;
+            }
+            .tips-info {
+                margin-left:5rem;
+                font-size: 1.4rem;
+                color: #999;
+            }
+        }
+    }
+    .search {
+        width: 100%;
+        // border-bottom: 1px solid #ccc;
+        .search-container {
+            display: flex;
+            width: 80%;
+            padding: 1.5rem 0;
+            margin: 0 auto;
+            padding-left: 4rem;
+            box-sizing: border-box;
+            font-size: 1.4rem;
+            .city-input {
+                border-radius: 6px;
+                outline: none;
+                padding: .5rem 1rem;
+                border:1px solid #999;
+            }
+            .open-city {
+                margin-right: 2rem;
+            }
+            .release-time {
+                margin-left: 3rem;
+            }
+            .search-line,.search-datetime {
+                border: none;
+                cursor: pointer;
+                border-radius: 6px;
+                margin-left: 1rem;
+            }
+            .search-line {
+                padding: 0 1rem;
+                background: #2c3137;
+                color: #fff;
+            }
+            .search-datetime {
+                width: 4rem;
+                height: 3rem;
+                // background:url(../image/search.png);
+                background-color: #29abc7;
+                img {
+                    width: 80%;
+                    height: 80%;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+
+            .detail{
+                display: flex;
+                justify-self: start;
+                align-items: center;
+                margin-left:5rem ;
+                >span {
+                    font-size: 1.2rem;
+                    color: #999;
+                }
+    
+                .car-owner,.passenger {
+                    margin: 0 1rem;
+                }
+    
+            }
+
+        }
+    }
+    .info-list {
+        width: 100%;
+        .info-list-container {
+            width: 80%;
+            margin: 0 auto;
+            padding-left: 4rem;
+            box-sizing: border-box;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1rem;
+                li {
+                    width: 14%;
+                    font-size: 1.4rem;
+                    text-align: left;
+s                   letter-spacing: 2px;
+                    .invitation {
+                        border: none;
+                        outline: none;
+                        border-radius: 6px;
+                        padding: .4rem 1rem;
+                        cursor: pointer;
+                        box-shadow: 2px 2px 5px 1px #ccc;
+                        background: #2c3137;
+                        color: #fff;
+                    }
+                }
+            }
+            .capation {
+                font-weight: bold;
+            }
+            .content {
+                padding-top: .5rem;
+                border-top: 1px dashed #2c3137;
+            }
+        }
+    }
+}

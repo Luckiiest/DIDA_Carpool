@@ -1,0 +1,213 @@
+/* 地图、内容导航css */
+.container .banner {
+    width: 100%;
+}
+.container .banner #allmap {
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.container .search {
+    width: 100%;
+}
+.container .search .search-container {
+    display: flex;
+    width: 80%;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    padding-left: 4rem;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+}
+.container .search .search-container .city-input {
+    border-radius: 6px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #999;
+}
+.container .search .search-container .open-city {
+    margin-right: 2rem;
+}
+.container .search .search-container .release-time {
+    margin-left: 3rem;
+}
+.container .search .search-container .search-line,
+.container .search .search-container .search-datetime {
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 1rem;
+}
+.container .search .search-container .search-line {
+    padding: 0 1rem;
+    background: #2c3137;
+    color: #fff;
+}
+.container .search .search-container .search-datetime {
+    width: 4rem;
+    height: 3rem;
+    background-color: #29abc7;
+}
+.container .search .search-container .search-datetime img {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+.container .search .search-container .detail {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    margin-left: 5rem;
+}
+.container .search .search-container .detail > span {
+    font-size: 1.2rem;
+    color: #999;
+}
+.container .search .search-container .detail .car-owner,
+.container .search .search-container .detail .passenger {
+    margin: 0 1rem;
+}
+.container .info-list {
+    width: 100%;
+}
+.container .info-list .info-list-container {
+    width: 80%;
+    height: 23rem;
+    margin: 0 auto;
+    padding-left: 4rem;
+    box-sizing: border-box;
+    overflow: auto;
+    /* border: 1px solid black; */
+}
+.container .info-list .info-list-container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.container .info-list .info-list-container ul li {
+    width: 9%;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container .info-list .info-list-container ul li .invitation {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px #ccc;
+    background: #2c3137;
+    color: #fff;
+}
+.container .info-list .info-list-container .capation {
+    font-weight: bold;
+}
+.container .info-list .info-list-container .content {
+    padding-top: 1rem;
+    border-top: 1px dashed #2c3137;
+} /*# sourceMappingURL=./style.css.map */
+
+
+@media screen and (max-width: 1280px) {
+    .container .search .search-container {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .container .search .search-container .detail {
+        display: none;
+    }
+
+    .container .info-list .info-list-container {
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .container .info-list .info-list-container ul li {
+        font-size: 1.2rem;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .container .info-list .info-list-container ul li .invitation {
+        padding: 0.4rem .5rem;
+        font-size: 1.2rem;
+    }
+    .container .search .search-container {
+        padding: 1.5rem 2rem;
+    }
+    .container .search .search-container .release-time {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 50%;
+    }
+    .container .search .search-container .release-time input {
+        width: 90%;
+    }
+    .container .search .search-container .search-datetime {
+        margin-top: 2rem;
+        width: 50%;
+        margin-left: 0rem;
+    }
+    .container .search .search-container .search-datetime img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:765px) {
+    .container .search .search-container {
+        width: 95%;
+        flex-direction: column;
+        padding: 2rem 0;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+    }
+    .container .search .search-container .city-input {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 1rem 0;
+    }
+    .container .search .search-container .open-city {
+        margin-right: 0;
+    }
+    .container .search .search-container .search-line,
+    .container .search .search-container .search-datetime {
+        margin-left: 0;
+    }
+    .container .search .search-container .search-line {
+        padding: .5rem 1rem;
+    }
+    .container .search .search-container .release-time {
+        width: 100%;
+    }
+    .container .search .search-container .release-time input {
+        width: 100%;
+    }
+    .container .search .search-container .search-datetime {
+        width: 100%;
+        margin: 0rem 0 2rem 0;
+    }
+
+    .container .search .search-container .detail {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .container .info-list .info-list-container {
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .container .info-list .info-list-container ul li {
+        font-size: 1.2rem;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+}

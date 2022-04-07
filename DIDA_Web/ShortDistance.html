@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>短途拼车</title>
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/release.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header-content">
+                    <h1 class="logo">
+                        <a href="./index.html">嘀嗒拼车</a>
+                    </h1>
+                    <div class="login-register">
+                        <div class="login-register-btn">
+                            <a class="login-btn" href="./login.html">登陆</a>
+                            <a href="./register.html" class="register-btn">注册</a>
+                        </div>
+                        <button class="exit">退出</button>
+                        <div class="welcome">欢迎来到嘀嗒拼车网！</div>
+                    </div>
+                </div>
+            </header>
+            <div class="banner">
+                <div id="allmap">
+                    <!--百度地图API  -->
+                </div>
+            </div>
+            <nav class="nav">
+                <div class="nav-container">
+                    <a href="./index.html" class="carpool long-distance">长途拼车</a>
+                    <a href="./ShortDistance.html" class="carpool short-distance">上下班拼车</a>
+                    <a href="./userData.html" class="carpool follow">拼车关注</a>
+                    <a href="" class="carpool release-long-distance">发布短途拼车</a>
+
+                    <span class="tips-info">嘀嗒拼车将永远为您服务！</span>
+                </div>
+            </nav>
+            <div class="search">
+                <div class="search-container">
+                    <div class="open-city">
+                        <label for="open-city-input">出发地址:</label>
+                        <input class="city-input" id="open-city-input" type="" />
+                    </div>
+                    <div class="close-city">
+                        <label for="close-city-input">目的地址:</label>
+                        <input class="city-input" type="text" id="close-city-input" />
+                    </div>
+                    <button class="search-line">查询线路</button>
+                </div>
+            </div>
+            <div class="info-list">
+                <div class="info-list-container">
+                    <ul class="capation">
+                        <li>编号</li>
+                        <li>拼车线路</li>
+                        <li>出发时间</li>
+                        <li>单程费用</li>
+                        <li>申请数</li>
+                        <li>已加入</li>
+                        <li>可容纳</li>
+                        <li>状态</li>
+                        <li>发布时间</li>
+                        <li>操作</li>
+                    </ul>
+                    <ul class="content">
+                        <li>1</li>
+                        <li>一六 —> 岩泉</li>
+                        <li>01-06 14-50</li>
+                        <li>￥3元 / 位</li>
+                        <li>1</li>
+                        <li>1</li>
+                        <li>4</li>
+                        <li>开启</li>
+                        <li>01-05 14:49</li>
+                        <li>
+                            <button class="invitation">申请加入</button>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li>2</li>
+                        <li>一六 —> 岩泉</li>
+                        <li>01-06 14-50</li>
+                        <li>￥3元 / 位</li>
+                        <li>1</li>
+                        <li>1</li>
+                        <li>4</li>
+                        <li>开启</li>
+                        <li>01-05 14:49</li>
+                        <li>
+                            <button class="invitation">申请加入</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="release-container">
+                <div class="release-content">
+                    <div class="top">
+                        <h2 class="release-title">发布上下班拼车拼车</h2>
+                        <i class="close">
+                            <img src="./image/close.png" alt="" />
+                        </i>
+                    </div>
+                    <div class="tab-container">
+                        <div class="tab-passenger menu-content" id="Passenger">
+                            <div class="form-group-top">
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showOpenCity">出发地址:</label>
+                                    <input type="text" name="showOpenCity" id="showOpenCity" />
+                                </div>
+    
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showCloseCity">目的地址:</label>
+                                    <input type="text" id="showCloseCity" name="showCloseCity" />
+                                </div>
+    
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showOpenTime">出发时间:</label>
+                                    <input type="date" id="showOpenTime" name="showOpenTime" />
+                                </div>
+    
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showReleaseCount">参加人数:</label>
+                                    <input type="text" id="showReleaseCount" name="showReleaseCount" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showCarType">汽车类型:</label>
+                                    <input type="text" id="showCarType" name="showCarType" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label-control" for="showPriceText">
+                                        每人单程费用：
+                                    </label>
+                                    <input id="showPriceText" type="text" id>
+                                    元 / 位
+                                </div>
+                            </div>
+                            
+                            <div class="form-label-control form-label-Msg">
+                                <span>补充说明：</span>
+                                <textarea class="form-Msg" name="showMsg" id="showMsg"></textarea>
+                            </div>
+
+                            <button class="show-owner-btn submit-btn" id="showOwner">立即发布</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--注意此处的参数值ak=百度开放平台上申请key，请重新申请，也可以使用该key值-->
+
+        <script src="./js/jquery-1.11.0.min.js"></script>
+        <script src="http://api.map.baidu.com/api?v=2.0&ak=24661721a13ef054b221f80ab69b36e8"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+.line-detail {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.line-detail .detail-content {
+    padding: 2.5rem 3rem;
+    margin: auto;
+    width: 70%;
+    height: 60rem;
+    box-sizing: border-box;
+}
+.line-detail .detail-content .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.line-detail .detail-content .top .back img{
+    width:2.5rem;
+}
+
+.line-detail .detail-content .top .release-title {
+    font-size: 1.8rem;
+}
+
+.line-detail .detail-content .detail-container .status {
+    border-bottom: 2px solid #29abc7;
+    padding: 1rem 0;
+}
+.line-detail .detail-content .detail-container .status .status-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.line-detail .detail-content .detail-container .status .status-info {
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+}
+.line-detail .detail-content .detail-container .status .status-info span {
+    font-weight: bold;
+}
+.line-detail .detail-content .detail-container .detail-info {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+}
+.line-detail .detail-content .detail-container .detail-info span {
+    font-weight: bold;
+}
+.line-detail .detail-content .detail-container .detail-info .info-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.line-detail .detail-content .detail-container .detail-info .info-content div {
+    width: 33%;
+    margin: 1rem 0;
+}
+.line-detail .detail-content .detail-container .detail-info .info-msg {
+    margin: 2rem 0;
+}
+.line-detail .detail-content .detail-container .detail-info .info-msg .msg {
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.line-detail .detail-content .detail-container .detail-info .btn-request {
+    margin: 4rem 0;
+}
+.line-detail .detail-content .detail-container .detail-info .btn-request .detail-btn:first-child {
+    margin-right: 2rem;
+}
+.line-detail .detail-content .detail-container .detail-info .btn-request .detail-btn {
+    border: none;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    background-color: #29abc7;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+.line-detail .detail-content .detail-container .detail-info .release-info {
+    border: 1px solid #ccc;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top:2rem;
+}
+.line-detail .detail-content .detail-container .detail-info .release-info div {
+    margin: 1rem 0;
+}
+
+
+
+@media screen and (max-width: 765px) {
+    .line-detail .detail-content {
+        width: 100%;
+    }
+    .line-detail .detail-content .detail-container .status .status-title {
+        font-size: 1.4rem;
+    }
+    .line-detail .detail-content .detail-container .status .status-info {
+        font-size: 1.2rem;
+    }
+    .line-detail .detail-content .detail-container .detail-info {
+        font-size: 1.2rem;
+    }
+    .line-detail .detail-content .detail-container .detail-info .info-content {
+        flex-direction: column;
+    }
+    .line-detail .detail-content .detail-container .detail-info .info-content div {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .line-detail .detail-content .detail-container .detail-info .info-msg {
+        margin: 1rem 0 0 0;
+    }
+    .line-detail .detail-content .detail-container .detail-info .info-msg .msg {
+        font-size: 1.4rem;
+    }
+    .line-detail .detail-content .detail-container .detail-info .btn-request {
+        margin: 2rem 0;
+    }
+    .line-detail .detail-content .detail-container .detail-info .btn-request .detail-btn {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+    }
+    .line-detail .detail-content .detail-container .detail-info .release-info div {
+        margin: 1rem 0;
+    }
+} /*# sourceMappingURL=./detail.css.map */

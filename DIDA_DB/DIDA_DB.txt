@@ -1,0 +1,68 @@
+用户表 UserInfo
+    UserID 用户ID
+    UserName 用户昵称
+    Phone 用户电话          --添加索引
+    Password 用户密码
+
+用户类型表 UserType
+    UserTypeId 用户类型Id
+    UserTypeName 用户类型名称
+   
+汽车类型表 CarType
+    CarID 汽车类型ID
+    CarName 汽车类型名称
+    
+长途信息表 LongInfo
+    LongID 长途信息ID
+    UserTypeID 用户类型ID
+    UserID 用户ID
+    OpenCity 出发城市
+    CLoseCity 目的城市
+    DepartureTime 出发时间
+    HoldNumberPeople 可容纳人数
+    NumberParticipants 已参加人数
+    NumberApplicants 申请人数
+    CarID 汽车类型
+    LongMsg 长途留言
+    ReleaseTime 发布时间
+    Price 价格
+    
+短途信息表 ShowInfo
+    ShowID 短途信息ID
+    UserID 用户ID
+    CarID 汽车类型
+    UserTypeID 用户类型ID
+    OpenCity 出发地址
+    CloseCity 目的地址
+    DepartureTime 出发时间
+    Price 价格
+    NumberParticipants 已参加人数
+    NumberApplicants 申请人数
+    HoldNumberPeople 可容纳人数
+    ReleaseTime 发布时间
+    ShowMsg 短途留言
+
+长途申请表 LongApplication
+    ID 长途申请表ID
+    UserID 申请用户ID
+    LineID 线路ID
+    ShowOrLong 长途 0/短途 1
+    satus 状态 0 失败   1 成功   2 无状态    0- 用户已读失败  1- 用户已读成功 2- 申请后座位已满，无法通过
+
+线路成员表 LineMember
+    ID 线路成员表ID
+    LineID 线路ID
+    ShowOrLong 长途 0/短途 1
+    Members 申请的所有成员的用户ID
+    
+ShowOrLong 长途短途表
+    0 长途
+    1 短途
+
+ApplicationStatus 申请状态表
+    0 失败
+    1 成功
+    2 无状态
+    0- 用户已读失败
+    1- 用户已读成功
+    2- 座位已满，无法通过

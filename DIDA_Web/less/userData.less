@@ -1,0 +1,106 @@
+@black: #2c3137;
+@gray: #6c757d;
+@green: #29abc7;
+
+.container {
+    width: 100%;
+    .nav {
+        margin: 2rem 0;
+        border: none;
+    }
+    .content {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0 4rem 3rem 4rem;
+        // border: 1px solid @gray;
+        box-sizing: border-box;
+        border-radius: 6px;
+        .to-left {
+            width: 25%;
+            border: 2px solid @gray;
+            padding: 1rem 2rem;
+            margin-right: 4rem;
+            border-radius: 6px;
+            .user-center {
+                display: flex;
+                align-items: center;
+                .user-center-image {
+                    display: block;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    margin-right: 5px;
+                    img {
+                        width: 3.5rem;
+                        height: 3.5rem;
+                    }
+                }
+                span {
+                    margin-top: 1px;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    color: @gray;
+                }
+            }
+            .right-menu {
+                padding-left: 1rem;
+                font-size: 1.4rem;
+                .menu-title {
+                    font-weight: bold;
+                    margin: 2rem 0 0 0;
+                    font-size: 1.6rem;
+                }
+                .menu-list {
+                    margin: 2rem 0;
+                    a {
+                        color: @gray;
+                        font-weight: bold;
+                    }
+                }
+                .active > a {
+                    color: @green;
+                }
+            }
+        }
+        .content-info {
+            width: 75%;
+            height: 48rem;
+            overflow: auto;
+            // border: 1px solid black;
+            .menu-content {
+                padding: 2rem;
+                .capation {
+                    li {
+                        font-weight: bold;
+                        font-size: 1.4rem;
+                    }
+                }
+                ul:not(.capation) {
+                    margin: 1.5rem 0;
+                }
+                ul {
+                    display: flex;
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 13%;
+                        text-align: center;
+                        line-height: 1.5rem;
+                        .deleted {
+                            border: none;
+                            outline: none;
+                            border-radius: 6 px;
+                            padding: 0.4rem 1rem;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            box-shadow: 2px 2px 5px 1px #ccc;
+                            background: #2c3137;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+body {
+    background: url(../image/dark-bg.jpg) 0 0 / cover no-repeat;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 27%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 6rem;
+    border-radius: 2rem;
+    .login-register {
+        text-align: center;
+        .btn-group {
+            display: inline-flex;
+            vertical-align: middle;
+            border: 1px solid #38f;
+            border-radius: 6px;
+            a {
+                font-size: 1.8rem;
+                color: #4169e1;
+                border-color: #4169e1;
+                padding: 1.5rem 4rem;
+            }
+            a.active {
+                color: #fff;
+                background-color: #4169e1;
+                border-color: #4169e1;
+                box-shadow: 0 2px 6px 0 rgb(114 124 245 / 50%);
+            }
+        }
+    }
+    .title {
+        font-size: 3rem;
+        margin: 4.5rem 0 3.5rem 0;
+        font-weight: 700;
+        text-align: center;
+        color: #6c767f;
+    }
+    .form-label-control {
+        font-size: 1.6rem;
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        color: #6c757d;
+    }
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        width: 100%;
+        > .form-control {
+            position: relative;
+            flex: 1 1 auto;
+            width: 1%;
+            margin-bottom: 0;
+        }
+        .form-control {
+            display: block;
+            height: calc(2.25rem + 2px);
+            padding: 1rem 2rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #6c757d;
+            background-color: #fff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            outline: none;
+        }
+    }
+    .login-btn {
+        display: block;
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 1rem 1.5rem;
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 1.5;
+        border-radius: 0.15rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #4169e1;
+        border-color: #4169e1;
+        box-shadow: 0 2px 6px 0 rgb(114 124 245 / 50%);
+    }
+
+    .back-home {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+        font-size: 1.6rem;
+        border-top: 1px solid #dee2e6;
+        span {
+            color: #6c757d;
+        }
+        .home {
+            color:#6c757d ;
+        }
+    }
+}

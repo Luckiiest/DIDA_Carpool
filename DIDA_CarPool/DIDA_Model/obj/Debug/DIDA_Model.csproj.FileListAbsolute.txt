@@ -1,0 +1,26 @@
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.dll
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.pdb
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CoreCompileInputs.cache
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.dll
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.pdb
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CopyComplete
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.dll
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.pdb
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.AssemblyReference.cache
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CoreCompileInputs.cache
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CopyComplete
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.dll
+D:\Desktop\DIDA - 副本\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.pdb
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.dll
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.pdb
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.dll
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.xml
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.AssemblyReference.cache
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CoreCompileInputs.cache
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CopyComplete
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.dll
+D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.pdb

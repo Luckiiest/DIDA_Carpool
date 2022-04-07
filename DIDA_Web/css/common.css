@@ -1,0 +1,204 @@
+/* 顶部导航css */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.header {
+    width: 100%;
+    background: #2c3137;
+    box-shadow: 2px 2px 10px 2px #999;
+}
+.header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 7rem;
+    margin: 0 auto;
+}
+.header .header-content .logo {
+    font-size: 3.8rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 4rem;
+    color: #fff;
+}
+.header .header-content .login-register {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+.header .header-content .login-register .login-register-btn {
+    margin-right: 2rem;
+}
+.header .header-content .login-register .login-register-btn .login-btn,
+.header .header-content .login-register .login-register-btn .register-btn {
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    padding: 0.5rem 2rem;
+    color: #fff;
+}
+.header .header-content .login-register .exit {
+    border: none;
+    background-color: #6c757d;
+    padding: 0.5rem 2rem;
+    border-radius: 0.6rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+.header .header-content .login-register .welcome {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container .nav {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.container .nav .nav-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 80%;
+    height: 5rem;
+    margin: 0 auto;
+    padding-left: 4rem;
+    box-sizing: border-box;
+}
+.container .nav .nav-container .carpool {
+    font-size: 1.4rem;
+    margin: 0 2.5rem;
+    padding: 1rem 2rem;
+    background-color: #29abc7;
+    border-radius: 6px;
+    color: #fff;
+}
+.container .nav .nav-container .long-distance {
+    margin-left: 0;
+}
+.container .nav .nav-container .release-long-distance {
+    margin-right: 0;
+    background: #db182b;
+}
+.container .nav .nav-container .tips-info {
+    margin-left: 5rem;
+    font-size: 1.4rem;
+    color: #999;
+}
+
+.popup {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    background:white;
+    border-radius:6px;
+    border:1px solid #ccc;
+    position: fixed;
+    right: -350px;
+    bottom: 100px;
+    cursor: pointer;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.popup p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 70%;
+}
+
+.popup p mark {
+    background-color: transparent;
+    color: #f40;
+    font-weight: bold;
+}
+
+.popup a{
+    border: 1px solid #ccc;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    margin: 0 5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #999;
+    color: #fff;
+}
+
+.popup a:hover {
+    background-color: turquoise;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .header .header-content {
+        flex-direction: column;
+        height: 7rem;
+        padding: 2rem 0;
+        margin: 0 auto;
+    }
+    .header .header-content .logo {
+        font-size: 2.4rem;
+        margin: 0;
+    }
+    .container .nav .nav-container .carpool {
+        font-size: 1.4rem;
+    }
+    .container .nav .nav-container .tips-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .header .header-content {
+        width: 95%;
+    }
+    .header .header-content .logo {
+        font-size: 2.2rem;
+        margin-left: 0;
+    }
+    .header .header-content .login-register {
+        margin-right: 0;
+    }
+    .header .header-content .login-register .login-register-btn .login-btn,
+    .header .header-content .login-register .login-register-btn .register-btn {
+        font-size: 1.2rem;
+    }
+    .header .header-content .login-register .exit {
+        padding: 0.5rem 1.5rem;
+        font-size: 1.2rem;
+        margin-right: 0rem;
+    }
+    .header .header-content .login-register .welcome {
+        display: none;
+    }
+
+    .container .nav .nav-container {
+        width: 95%;
+        padding: 0 0.5rem;
+        justify-content: center;
+    }
+    .container .nav .nav-container .carpool {
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
+        padding: 1rem 0.5rem;
+    }
+    .container .nav .nav-container .long-distance {
+        margin-left: 0;
+    }
+    .container .nav .nav-container .release-long-distance {
+        margin-right: 0;
+    }
+}

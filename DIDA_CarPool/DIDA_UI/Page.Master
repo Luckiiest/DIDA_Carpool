@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.Master.cs" Inherits="DIDA_UI.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header class="header">
+                <div class="header-content">
+                    <h1 class="logo">
+                        <a href="./Index.aspx">嘀嗒拼车</a>
+                    </h1>
+                    <div class="login-register">
+                        <div class="login-register-btn">
+                            <%= Name == null  ?  "<a href='./Login.aspx' class='register-btn'>登陆</a>  <a href='./Register.aspx' class='register-btn'>注册</a>" : "<a href='#' class='register-btn'>"+ Name +"</a>"  %>
+                        </div>
+                        <asp:Button ID="Exit" CssClass="exit" runat="server" Text="退出" OnClick="Exit_Click"/>
+                        <div class="welcome">欢迎来到嘀嗒拼车网！</div>
+                    </div>
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=24661721a13ef054b221f80ab69b36e8"></script>
+    <script src="./scripts/jquery-1.11.0.min.js"></script>
+    <script src="./scripts/tab.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
