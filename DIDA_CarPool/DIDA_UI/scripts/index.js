@@ -2,7 +2,7 @@
 
 //百度地图
 function search(start,end) {
-    var map = new BMap.Map('allmap'); // 创建Map实例
+    var map = new BMap.Map('#allmap'); // 创建Map实例
 
     map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 
@@ -15,7 +15,7 @@ function search(start,end) {
 
 function mySearch() {
     //添加地图类型控件
-    var map = new BMap.Map("allmap"); // 创建Map实例
+    var map = new BMap.Map("#allmap"); // 创建Map实例
     map.centerAndZoom(new BMap.Point(116.404, 39.915), 11); // 初始化地图,设置中心点坐标和地图级别
     //添加地图类型控件
     map.addControl(
@@ -58,6 +58,4 @@ function goBack() {
 
 $(function () {
     mySearch();
-    // search();
-    // sea();
 });
