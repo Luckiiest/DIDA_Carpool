@@ -37,3 +37,16 @@ D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarP
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.csproj.CopyComplete
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.dll
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_BLL.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_BLL.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_DAL.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_Model.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\Newtonsoft.Json.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_DAL.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\DIDA_Model.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\bin\Debug\Newtonsoft.Json.xml
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.csproj.AssemblyReference.cache
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.csproj.CoreCompileInputs.cache
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.csproj.Up2Date
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_BLL\obj\Debug\DIDA_BLL.pdb

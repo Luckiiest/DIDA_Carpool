@@ -24,3 +24,12 @@ D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarP
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CopyComplete
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.dll
 D:\private\OneDrive - office 365 students and teachers\major\.NET\DIDA\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\bin\Debug\DIDA_Model.pdb
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\bin\Debug\Newtonsoft.Json.xml
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.AssemblyReference.cache
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.CoreCompileInputs.cache
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.csproj.Up2Date
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.dll
+D:\priv\project\DIDA_Carpool\DIDA_CarPool\DIDA_Model\obj\Debug\DIDA_Model.pdb
